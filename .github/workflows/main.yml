@@ -7,5 +7,5 @@ jobs:
   main:
     uses: EricTendian/runbooks/.github/workflows/update-meta-gbp.yml@main
     with:
-      dists-json: '["focal", "noble"]'
+      dists-json: '["bionic"]'
     secrets: inherit
