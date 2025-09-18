@@ -83,7 +83,7 @@ derivative      := $(shell \
 	else echo Unknown; fi)
 
 VER=3.10
-SVER=3.10.11
+SVER=3.10.15
 NVER=3.11
 PVER=python$(VER)
 EXT_VER=$(subst .,,$(VER))
@@ -1073,7 +1073,7 @@ endif
 	: # Move the docs into $(p_base)'s /usr/share/doc/$(PVER) directory,
 	: # all other packages only have a copyright file.
 	dh_installdocs -p$(p_base) \
-		README.rst Misc/NEWS Misc/ACKS
+		README.rst Misc/ACKS
 	ln -sf NEWS.gz $(d_base)/usr/share/doc/$(p_base)/changelog.gz
 	dh_installdocs --all \
 		-N$(p_base) -N$(p_dev) -N$(p_dbg) -N$(p_lib) \
