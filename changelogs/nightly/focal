@@ -1,3 +1,9 @@
+python3.10 (3.10.18-14-g8ea678d6d1-1+focal1) focal; urgency=medium
+
+  * Update to v3.10.18-14-g8ea678d6d1.
+
+ -- Eric Tendian <erictendian@gmail.com>  Tue, 07 Oct 2025 08:50:34 +0000
+
 python3.10 (3.10.18-13-gf610f9eab9-1+focal1) focal; urgency=medium
 
   * Update to v3.10.18-13-gf610f9eab9.
